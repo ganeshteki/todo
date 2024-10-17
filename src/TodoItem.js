@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { deleteTodo } from './redux/actions';
-import './TodoItem.css';
+
 
 function TodoItem({ todo, index }) {
   const dispatch = useDispatch();
